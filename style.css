@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&display=swap');
+body
+{
+
+    font-family: 'Montserrat', sans-serif;
+}
+/*font-family: 'Crimson Pro', serif; */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav h1{
+    font-family: 'Crimson Pro', serif;
+    font-size: 30px; 
+}
+ nav .onglets{
+     margin-top: 35px;
+ }
+
+ nav .onglets a{
+    text-decoration: none;
+    color: #7f7e7e;
+    margin-right: 10px;
+}
+
+.articles{
+    margin-top: 30px;
+}
+.articles .article{
+    display: flex;
+    
+    margin-bottom: 30px;
+}
+.articles .article .left iframe{
+    height: 300px;
+    width:  500px;
+}
+.articles .article .right{
+        max-width: 50%;
+        margin-left: 40px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(https://thumbs.dreamstime.com/b/blood-vessels-part-circulatory-system-transports-throughout-body-39650816.jpg);
+    background-size: cover;
+    padding: 40px;
+}
+header h1{
+    font-family: 'Crimson Pro', serif;
+    font-size: 50px;
+}
